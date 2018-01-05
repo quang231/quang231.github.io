@@ -1,0 +1,8 @@
+a {font-family: Roboto Condensed,sans-serif; }
+a:hover { color: blue }
+a:active {color: red}
+.danhmuc:visited {color: white; background-color: grey }
+.danhmuc:link { color: white; background-color: grey }
+.danhmuc:hover {color: black}
+.danhmuc:active {color: blue}
+
