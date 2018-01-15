@@ -1,0 +1,17 @@
+* { box-sizing: border-box;}
+#banner {width:50%;margin: 0 0 0 500px;border-bottom: 1px solid #dddddd
+
+}
+
+
+
+body{
+	font:12px ;
+	color:#666666;
+	text-decoration:none;
+}
+.giay {border:1px solid #666666;width:25%;margin:2px; float: left;font-weight: 700;}
+
+
+.danhsach {width:1000px;margin: 0 0 0 600px;}
+

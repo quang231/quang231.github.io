@@ -1,0 +1,82 @@
+.block{
+    width:250px;
+    height: 200px;
+    position: relative;
+
+}
+/*Khung chứa nội dung*/
+.block .block-wrapper{
+    width:250px;
+    height: 200px;
+    position: absolute;
+    top:0;
+    left:0;
+    overflow:hidden;
+}
+
+/*Mặt trước chứa hình ảnh*/
+.block .front-side{
+    background: black;
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    padding: 2px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor:pointer;
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+    z-index:2;
+    
+}
+.block .front-side img{
+  width:100%;
+  height:auto;
+}
+
+/*Mặt sau chứa tiêu đề và mô tả*/
+.block .back-side{
+    background: grey;
+    color:#fff;
+    position: absolute;
+    width:250px;
+    height: 200px;
+    top:0;
+    left:0;
+    padding: 20px;
+    z-index:1;
+    box-sizing: border-box;
+    font-family: Roboto Condensed,sans-serif;
+}
+
+.block .back-side h1{
+  font-size: 18px;
+  margin:0;
+}
+
+.block:hover .front-side{
+  top:-100%;
+  left:100%;
+}
+.giay {float: left; margin: 3px}
+.cot {
+	overflow: auto;
+    width: 1000px;
+    margin: auto;
+
+}
+#bia {width:50%;margin: 0 0 0 500px;border-bottom: 1px solid #dddddd
+
+}
+.cot{
+	overflow: auto;
+	margin: auto;
+}
+
+.day {margin: 0 0 0 150px}
