@@ -1,0 +1,15 @@
+*{box-sizing: border-box;}
+a {
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	padding: 42px 0;
+    min-height: 15px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+}
+a:link {color: black}
+a:visited { color: black }
+a:hover {color: #ef5350}
